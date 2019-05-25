@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css" />
     <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css" />
     <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css" />
@@ -16,7 +17,7 @@
     <header>
       <nav>
         <ul class="main-nav">
-          <li><a href="#" class="vs">Visual Studio</a></li>
+          <li><a href="#" >Visual Studio</a></li>
           <li><a href="#">Visual Studio IDE</a></li>
           <li><a href="#">Features</a></li>
           <li><a href="#">Editions</a></li>
@@ -41,9 +42,14 @@
     </section>
     <section class="immediate">
 			<div class="row">
-			<img src="" alt="visual studio" class="vs" />
-			<h2><strong>Visual Studio</strong> Preview</h2>
-			<p>Be the first to access the future of Visual Studio</p>
+				<div class="col span-1-of-2">
+						<img src="Resources/CSS/Images/vsplogo.png" alt="visual studio" class="vs" />
+				</div>
+			<div class="col span-1-of-2">
+					<h2><strong>Visual Studio</strong> Preview</h2>
+					<p>Be the first to access the future of Visual Studio</p>
+			</div>
+	
 		</div>
 		<div class="row">
 			<div class="col span-1-of-2"><h3><strong>What's in it for me</strong></h3>
@@ -92,6 +98,67 @@
 						If you use extensions, they will need to be installed for each instance of Visual Studio in a side by side install.
 					</p>
 				</div>
-    </section>
+		</section>
+		<section class="features">
+			<div class="row">
+				<div class="col span-1-of-3">
+					<div class="lhs">
+							<p><div><i class="small io icon ion-md-flask"></i></div><a href="#"> Test</a></p>
+					</div>
+					<div class="lhs">
+							<p><div><i class="small io icon ion-md-thermometer"></i></div><a href="#">Develop</a></p>
+					</div>
+					<div class="lhs">
+							<p><div><i class="small io icon ion-md-rocket"></i></div><a href="#">Deploy</a></p>
+					</div>
+				</div>
+				<div class="col span-2-of-3 box">
+					<h2>Test Explorer Improvements</h2>
+					<p>The Test Explorer now has significant performance and UI improvements. Visual Studio
+						processes consume less memory and discovering large numbers of tests is faster. The
+						updated UI includes easier filtering, more discoverable commands, and the addition of
+						customizable columns and multi-tiered group by that let the user fine tune what test 
+						information is displayed
+					</p>
+					<img src="Resources/CSS/Images/test-explorer.jpg" alt="test explorer" class="img-class">
+					<a href="#" class="btn-white">Release Notes ></a>
+				</div>
+			</div>
+		</section>
+		<section class="preview">
+		<div class="row">
+				<h2>What is a Preview?</h2>
+			<p>Visual Studio Preview gives you early access to the latest features and improvements not yet
+				available in the main release. By trying Preview, you can take advantage of new builds and updates
+			that ship on a <a href="#">frequent cadence</a>. For more information on Visual Studio Preview installs, visit our
+		<a href="#">FAQ page.</a> </p>
+
+		<p>Please note that the preview version is continously evolving and certain features may not work as 
+			expected. This version is also not licensed to build shipping applications. If you would like to build
+			production applications you can access stable release of Visual Studio from our <a href="#">downloads</a> page.
+		</p>
+		</div>
+		</section>
+		<section class="community">
+			<div class="row ">
+				<div class="col span-1-of-2"></div>
+				<div class="col span-1-of-2 row-box">
+						<h2>Engage with our community</h2>
+						<p>We believe that to create a great product for 
+							you we should listen to and engage with you 
+							in every stage of our development.
+						</p>
+					<p>	As you evaluate what's next with 
+							Visual Studio Preview, report a bug or suggest a 
+							feature in our developer community, where 
+							you can talk directly to our product
+							engineers. Your feedback empowers us to 
+							evolve and ensure the highest quality in our final product.</p>
+		
+							<a href="#" class="btn btn-download">Developer Community ></a>
+				</div>
+	
+			</div>
+		</section>
   </body>
 </html>
